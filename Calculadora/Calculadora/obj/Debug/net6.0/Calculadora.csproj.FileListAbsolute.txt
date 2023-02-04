@@ -1,0 +1,15 @@
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\bin\Debug\net6.0\Calculadora.exe
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\bin\Debug\net6.0\Calculadora.deps.json
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\bin\Debug\net6.0\Calculadora.runtimeconfig.json
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\bin\Debug\net6.0\Calculadora.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\bin\Debug\net6.0\Calculadora.pdb
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.csproj.AssemblyReference.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfoInputs.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfo.cs
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.csproj.CoreCompileInputs.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\obj\Debug\net6.0\refint\Calculadora.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.pdb
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.genruntimeconfig.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\obj\Debug\net6.0\ref\Calculadora.dll

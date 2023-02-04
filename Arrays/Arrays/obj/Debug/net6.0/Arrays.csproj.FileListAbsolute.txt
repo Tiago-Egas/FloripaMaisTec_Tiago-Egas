@@ -1,0 +1,15 @@
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\bin\Debug\net6.0\Arrays.exe
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\bin\Debug\net6.0\Arrays.deps.json
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\bin\Debug\net6.0\Arrays.runtimeconfig.json
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\bin\Debug\net6.0\Arrays.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\bin\Debug\net6.0\Arrays.pdb
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\obj\Debug\net6.0\Arrays.csproj.AssemblyReference.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\obj\Debug\net6.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfoInputs.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfo.cs
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\obj\Debug\net6.0\Arrays.csproj.CoreCompileInputs.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\obj\Debug\net6.0\Arrays.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\obj\Debug\net6.0\refint\Arrays.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\obj\Debug\net6.0\Arrays.pdb
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\obj\Debug\net6.0\Arrays.genruntimeconfig.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Arrays\Arrays\obj\Debug\net6.0\ref\Arrays.dll

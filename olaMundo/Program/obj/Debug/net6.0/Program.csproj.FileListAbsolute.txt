@@ -1,0 +1,15 @@
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\bin\Debug\net6.0\Program.exe
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\bin\Debug\net6.0\Program.deps.json
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\bin\Debug\net6.0\Program.runtimeconfig.json
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\bin\Debug\net6.0\Program.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\bin\Debug\net6.0\Program.pdb
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\obj\Debug\net6.0\Program.csproj.AssemblyReference.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\obj\Debug\net6.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\obj\Debug\net6.0\Program.AssemblyInfoInputs.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\obj\Debug\net6.0\Program.AssemblyInfo.cs
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\obj\Debug\net6.0\Program.csproj.CoreCompileInputs.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\obj\Debug\net6.0\Program.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\obj\Debug\net6.0\refint\Program.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\obj\Debug\net6.0\Program.pdb
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\obj\Debug\net6.0\Program.genruntimeconfig.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\olaMundo\Program\obj\Debug\net6.0\ref\Program.dll

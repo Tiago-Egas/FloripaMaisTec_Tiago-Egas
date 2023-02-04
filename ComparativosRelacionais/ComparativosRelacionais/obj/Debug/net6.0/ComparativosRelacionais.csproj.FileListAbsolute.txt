@@ -1,0 +1,15 @@
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\bin\Debug\net6.0\ComparativosRelacionais.exe
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\bin\Debug\net6.0\ComparativosRelacionais.deps.json
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\bin\Debug\net6.0\ComparativosRelacionais.runtimeconfig.json
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\bin\Debug\net6.0\ComparativosRelacionais.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\bin\Debug\net6.0\ComparativosRelacionais.pdb
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\obj\Debug\net6.0\ComparativosRelacionais.csproj.AssemblyReference.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\obj\Debug\net6.0\ComparativosRelacionais.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\obj\Debug\net6.0\ComparativosRelacionais.AssemblyInfoInputs.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\obj\Debug\net6.0\ComparativosRelacionais.AssemblyInfo.cs
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\obj\Debug\net6.0\ComparativosRelacionais.csproj.CoreCompileInputs.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\obj\Debug\net6.0\ComparativosRelacionais.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\obj\Debug\net6.0\refint\ComparativosRelacionais.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\obj\Debug\net6.0\ComparativosRelacionais.pdb
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\obj\Debug\net6.0\ComparativosRelacionais.genruntimeconfig.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\ComparativosRelacionais\ComparativosRelacionais\obj\Debug\net6.0\ref\ComparativosRelacionais.dll
