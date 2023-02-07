@@ -13,3 +13,18 @@ D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Exercícios\Módulo
 D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Exercícios\Módulo 01\ExerciciosM01S01\ExerciciosM01S01\obj\Debug\net6.0\ExerciciosM01S01.pdb
 D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Exercícios\Módulo 01\ExerciciosM01S01\ExerciciosM01S01\obj\Debug\net6.0\ExerciciosM01S01.genruntimeconfig.cache
 D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Exercícios\Módulo 01\ExerciciosM01S01\ExerciciosM01S01\obj\Debug\net6.0\ref\ExerciciosM01S01.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\bin\Debug\net6.0\ExerciciosM01S01.exe
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\bin\Debug\net6.0\ExerciciosM01S01.deps.json
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\bin\Debug\net6.0\ExerciciosM01S01.runtimeconfig.json
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\bin\Debug\net6.0\ExerciciosM01S01.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\bin\Debug\net6.0\ExerciciosM01S01.pdb
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\obj\Debug\net6.0\ExerciciosM01S01.csproj.AssemblyReference.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\obj\Debug\net6.0\ExerciciosM01S01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\obj\Debug\net6.0\ExerciciosM01S01.AssemblyInfoInputs.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\obj\Debug\net6.0\ExerciciosM01S01.AssemblyInfo.cs
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\obj\Debug\net6.0\ExerciciosM01S01.csproj.CoreCompileInputs.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\obj\Debug\net6.0\ExerciciosM01S01.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\obj\Debug\net6.0\refint\ExerciciosM01S01.dll
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\obj\Debug\net6.0\ExerciciosM01S01.pdb
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\obj\Debug\net6.0\ExerciciosM01S01.genruntimeconfig.cache
+D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Módulo 01\Semana 01\Exercícios\ExerciciosM01S01\obj\Debug\net6.0\ref\ExerciciosM01S01.dll
