@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Calculadora
-build_property.ProjectDir = D:\Kuruvar_Docs\Documents\Estudos\Senai\FullStack_SENAI_2023\Calculadora\Calculadora\
+build_property.ProjectDir = \\wsl.localhost\Arch\mnt\wsl\PHYSICALDRIVE5\Estudos\Senai\FloripaMaisTec_Tiago-Egas\Módulo 01\Semana 01\Calculadora\Calculadora\

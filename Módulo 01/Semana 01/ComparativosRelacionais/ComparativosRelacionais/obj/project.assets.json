@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kuruvar_Docs\\Documents\\Estudos\\Senai\\FullStack_SENAI_2023\\ComparativosRelacionais\\ComparativosRelacionais\\ComparativosRelacionais.csproj",
+      "projectUniqueName": "D:\\Kuruvar_Docs\\Documents\\Estudos\\Senai\\FloripaMaisTec_Tiago-Egas\\Módulo 01\\Semana 01\\ComparativosRelacionais\\ComparativosRelacionais\\ComparativosRelacionais.csproj",
       "projectName": "ComparativosRelacionais",
-      "projectPath": "D:\\Kuruvar_Docs\\Documents\\Estudos\\Senai\\FullStack_SENAI_2023\\ComparativosRelacionais\\ComparativosRelacionais\\ComparativosRelacionais.csproj",
+      "projectPath": "D:\\Kuruvar_Docs\\Documents\\Estudos\\Senai\\FloripaMaisTec_Tiago-Egas\\Módulo 01\\Semana 01\\ComparativosRelacionais\\ComparativosRelacionais\\ComparativosRelacionais.csproj",
       "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-      "outputPath": "D:\\Kuruvar_Docs\\Documents\\Estudos\\Senai\\FullStack_SENAI_2023\\ComparativosRelacionais\\ComparativosRelacionais\\obj\\",
+      "outputPath": "D:\\Kuruvar_Docs\\Documents\\Estudos\\Senai\\FloripaMaisTec_Tiago-Egas\\Módulo 01\\Semana 01\\ComparativosRelacionais\\ComparativosRelacionais\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
