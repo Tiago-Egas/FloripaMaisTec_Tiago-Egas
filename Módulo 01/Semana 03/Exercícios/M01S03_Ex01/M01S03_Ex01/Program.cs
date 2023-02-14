@@ -12,4 +12,3 @@ Console.WriteLine($"O produto 1 tem nome: {produto1.Nome}, " +
 Console.WriteLine($"O produto 2 tem nome: {produto2.Nome}, " +
                   $"preço: {produto2.Preco} " +
                   $"e quantidade: {produto2.Quantidade}.");
-// teste
