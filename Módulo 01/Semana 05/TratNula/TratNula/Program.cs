@@ -13,5 +13,5 @@ catch (NullReferenceException ex)
 }
 catch (Exception ex)
 {
-    Console.WriteLine($"Erro genérico: {ex}.\n");
+    Console.WriteLine($"Erro genérico: {ex.Message}.\n");
 }
