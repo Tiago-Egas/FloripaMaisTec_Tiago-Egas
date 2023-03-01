@@ -1,0 +1,2 @@
+Texto dentro do arquivo.
+
