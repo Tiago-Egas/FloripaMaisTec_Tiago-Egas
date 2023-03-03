@@ -106,7 +106,7 @@ namespace Banco
         public void ExibirDados()
         {
             Console.WriteLine();
-            Console.WriteLine($"Nome do Títular: {this.Titular}.");
+            Console.WriteLine($"Nome do Titular: {this.Titular}.");
             Console.WriteLine($"Número da Conta: {this.Numero}.");
             Console.WriteLine($"Agência: {this.Agencia}.");
             Console.WriteLine($"Tipo de conta: {this.ContaTipo}.");
