@@ -1,32 +1,28 @@
-﻿namespace M01S04.Classes
+﻿using M01S04.Classes;
+using M01S04.Classes.Enums;
+
+namespace M01S04.Classes
 {
     public class ContaCorrente : ContaBancaria
     {
-        public ContaCorrente(int numero, int agencia, Cliente cliente, decimal saldo) : base(numero, agencia, cliente, saldo)
+        public ContaCorrente(int numero, int agencia, Cliente cliente) : base(numero, agencia, cliente)
         {
-            if (true)
+            if (Cliente.TipoPessoa != TipoPessoaEnum.FISICA)
             {
-                // TODO: Cliente pode ser apenas tipoPessoa FISICA
+                throw new ArgumentException("Cliente precisa ser do tipo Física!");
             }
-
         }
 
-        public override void Sacar()
+        public override void Sacar(decimal valor)
         {
-            /* TODO: 
-             * a. Classe ContaCorrente - deve ser cobrada uma taxa de R$ 0,50 por cada saque;
-             * b. Classe ContaPoupanca - deve ser cobrada uma taxa de R$ 0,10 por cada saque;
-             * c. Classe ContaEmpresarial - deve ser cobrada uma taxa de R$ 1,00 por cada saque;
-             */
+            valor += 0.50M;
+            base.Sacar(valor);
         }
 
-        public override void Transferir()
+        public override void Transferir(ContaBancaria conta, decimal valor)
         {
-            /* TODO: 
-             * a. Classe ContaCorrente - deve ser cobrada uma taxa de R$ 0,25 por cada transferência;
-             * b. Classe ContaPoupanca - deve ser cobrada uma taxa de R$ 0,05 por cada transferência;
-             * c. Classe ContaEmpresarial - deve ser cobrada uma taxa de R$ 0,50 por cada transferência;
-             */
+            valor += 0.25M;
+            base.Transferir(conta, valor);
         }
     }
 }

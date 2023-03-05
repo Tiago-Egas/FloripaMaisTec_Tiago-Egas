@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "07+bPTCBRZBR4x6meY6XB3a7Qr6KA3kdUBhTNqavfmIN6BdvPhiSiaDvnXLNuKVo9p2T+9anQAiwwiiJjV1Uuw==",
+  "dgSpecHash": "AiixD3B3/I6CXoshIhB7b38RZxh3/0f4mlf9EDWysxZVypokrUl1Y36kRrl6V1JzNDpehHBGk0RbIbvq00GWYg==",
   "success": true,
-  "projectFilePath": "D:\\Kuruvar_Docs\\Documents\\Estudos\\Senai\\FloripaMaisTec_Tiago-Egas\\Módulo 01\\Semana 01\\Exercícios\\ExerciciosM01S01\\ExerciciosM01S01.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/kuruvar/estudos/Senai/FloripaMaisTec_Tiago-Egas/Módulo 01/Semana 01/Exercícios/ExerciciosM01S01/ExerciciosM01S01.csproj",
+  "expectedPackageFiles": [
+    "/home/kuruvar/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.14/microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

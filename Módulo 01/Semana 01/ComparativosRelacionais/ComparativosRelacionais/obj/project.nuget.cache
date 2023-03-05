@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UtyOXFwQKy8gLmJARadkQjX5cgJrRjLCXyHlb9llTiXTf9i9FEDSMRsR0XibiRLj7l78GoU4epflaaXoojghEA==",
+  "dgSpecHash": "PM1Go9Ly3fEpFDLO+U3a+ZGe/LEViLyVZfogkHe9Dao/ee6zHc4LbgfwdYN3N42QNpTr9WsGscGqhjS/OeXFCg==",
   "success": true,
-  "projectFilePath": "D:\\Kuruvar_Docs\\Documents\\Estudos\\Senai\\FloripaMaisTec_Tiago-Egas\\Módulo 01\\Semana 01\\ComparativosRelacionais\\ComparativosRelacionais\\ComparativosRelacionais.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/kuruvar/estudos/Senai/FloripaMaisTec_Tiago-Egas/Módulo 01/Semana 01/ComparativosRelacionais/ComparativosRelacionais/ComparativosRelacionais.csproj",
+  "expectedPackageFiles": [
+    "/home/kuruvar/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.14/microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

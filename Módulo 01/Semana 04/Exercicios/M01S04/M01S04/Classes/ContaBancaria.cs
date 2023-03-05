@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace M01S04.Classes
+﻿namespace M01S04.Classes
 {
     public class ContaBancaria
     {
@@ -9,6 +7,13 @@ namespace M01S04.Classes
         public Cliente Cliente { get; protected set; }
         public decimal Saldo { get; protected set; } = 0;
 
+        public ContaBancaria(int numero, int agencia, Cliente cliente)
+        {
+            this.Numero = numero;
+            this.Agencia = agencia;
+            this.Cliente = cliente;
+            this.Saldo = 0;
+        }
         public ContaBancaria(int numero, int agencia, Cliente cliente, decimal saldo)
         {
             this.Numero = numero;
@@ -17,52 +22,59 @@ namespace M01S04.Classes
             this.Saldo = saldo;
         }
 
-        public void Sacar(decimal valor)
+        public virtual void Sacar(decimal valor)
         {
-            // Sacar um valor;
-            if (valor > 0 && this.Saldo >= valor)
+            if (valor <= 0)
             {
-                this.Saldo -= valor;
-                ExibirSaldo();
+                Console.WriteLine("Informe valor maior que 0!");
+                return;
+            }
+            else if (valor > this.Saldo)
+            {
+                Console.WriteLine("O valor digitado é maior que o saldo atual!");
+                return;
             }
             else
-            {
-                Console.WriteLine("\nErro na operação!\n");
-                if (valor <= 0)
-                {
-                    Console.WriteLine("Valor de saque inválido!\n");
-                }
-                if (this.Saldo < valor)
-                {
-                    Console.WriteLine("Saldo insuficiente!\n");
-                    ExibirSaldo();
-                }
-            }
-        }
-
-        public void Depositar(decimal valor)
-        {
-            // deposita um valor;
-            if (valor > 0)
             {
                 this.Saldo += valor;
-                ExibirSaldo();
+            }
+        }
+
+        public virtual void Depositar(decimal valor)
+        {
+            if (valor <= 0)
+            {
+                Console.WriteLine("O valor digitado precisa ser maior que 0!");
+                return;
             }
             else
             {
-                Console.WriteLine("\nInforme valores maiores que R$ 0,00.\n");
+                this.Saldo += valor;
+                Console.WriteLine($"O valor de R$ {valor} foi depositado com sucesso!");
             }
+            ExibirSaldo();
         }
 
-        public void Transferir()
+        public virtual void Transferir(ContaBancaria conta, decimal valor)
         {
-            // transfere um valor;
+            if (valor <= 0)
+            {
+                Console.WriteLine("O valor digitado ser maior que 0!");
+                return;
+            }
+
+            if (valor > this.Saldo)
+            {
+                Console.WriteLine("Saldo insuficiente");
+                return;
+            }
+
+            this.Saldo += valor;
         }
 
-        public void ExibirSaldo()
+        public virtual void ExibirSaldo()
         {
-            // exibe uma mensagem com o saldo atual;
-            Console.WriteLine($"Saldo atual da conta: R$ {this.Saldo}");
+            Console.WriteLine($"Saldo atual da conta: R$ {this.Saldo}.");
         }
     }
 }
