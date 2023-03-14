@@ -1,6 +1,6 @@
-﻿using static Banco.ContaTipo;
+﻿using Banco.Classes.Enum;
 
-namespace Banco
+namespace Banco.Classes
 {
     public class ContaBancaria
     {

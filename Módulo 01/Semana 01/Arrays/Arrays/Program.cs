@@ -49,12 +49,12 @@ Console.WriteLine($"Maior valor contido no array (nomes2): {nomes2.Max()}");
 Console.WriteLine("\n####################################\n");
 
 // Arrays bidimensionais: 
-int[,] array2d = new int[2,2];
+int[,] array2d = new int[2, 2];
 
-array2d[0,0] = 1;
-array2d[0,1] = 2;
-array2d[1,0] = 3;
-array2d[1,1] = 4;
+array2d[0, 0] = 1;
+array2d[0, 1] = 2;
+array2d[1, 0] = 3;
+array2d[1, 1] = 4;
 
 /* Representação do exemplo
  * de array bidimensinal: 

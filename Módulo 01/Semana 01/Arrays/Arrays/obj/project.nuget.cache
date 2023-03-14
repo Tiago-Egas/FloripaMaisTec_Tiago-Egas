@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p+tlG3czsuiitaL+W0P4hx1cYemyJdCDN68+T4GrfZiHSd4/epSanE3uBOClBivSCMr1eJ3cncClx/QR5hpCrQ==",
+  "dgSpecHash": "JlRBSclqu7VJEFPdS/uHU1a4Euuyv/jMveZ2FlI0iKmfpRrko/+Egm2uC271MA5lYaNTxiZw8KfSmHkj7dMSOA==",
   "success": true,
-  "projectFilePath": "/home/kuruvar/estudos/Senai/FloripaMaisTec_Tiago-Egas/Módulo 01/Semana 01/Arrays/Arrays/Arrays.csproj",
+  "projectFilePath": "/mnt/wsl/PHYSICALDRIVE4/Estudos/Senai/FloripaMaisTec_Tiago-Egas/Módulo 01/Semana 01/Arrays/Arrays/Arrays.csproj",
   "expectedPackageFiles": [
     "/home/kuruvar/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.14/microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512"
   ],

@@ -1,10 +1,10 @@
 ﻿using M01S03_Ex01;
 
-Produto produto1 = new("Xícara",
-                       25.00,
-                       8);
+Produto produto1 = new Produto(nome: "Xícara",
+                       preco: 25.00,
+                       quantidade: 8);
 
-Produto produto2 = new();
+Produto produto2 = new Produto();
 
 Console.WriteLine($"O produto 1 tem nome: {produto1.Nome}, " +
                   $"preço: {produto1.Preco} " +

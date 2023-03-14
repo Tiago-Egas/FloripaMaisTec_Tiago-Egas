@@ -1,7 +1,8 @@
-﻿using Banco;
+﻿using Banco_Pt2.Classes;
+using Banco_Pt2.Classes.Enum;
 
 Console.WriteLine("Inciciando sistema...\n\n");
-List<ContaBancaria> contas = new();
+List<ContaBancaria_pt2> contas = new List<ContaBancaria_pt2>();
 
 bool operacao = true;
 while (operacao)
@@ -30,7 +31,7 @@ void Cadastro()
                   "\t0 - CORRENTE\n" +
                   "\t1 - POUPANCA\n\nOpção: ");
     int cont = int.Parse(Console.ReadLine());
-    contas.Add(new(nome, cont));
+    contas.Add(new ContaBancaria_pt2(nome, cont));
 }
 
 void Transferencia()
@@ -55,5 +56,5 @@ void Transferencia()
         // que o saldo da conta do remetente
     }
 
-    
+
 }

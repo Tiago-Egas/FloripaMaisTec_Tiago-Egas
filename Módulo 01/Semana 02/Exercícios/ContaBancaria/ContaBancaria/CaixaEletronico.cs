@@ -1,4 +1,4 @@
-﻿using Banco;
+﻿using Banco.Classes;
 
 ContaBancaria conta1 = new ContaBancaria();
 Console.WriteLine("Bem vindo!\nSistema iniciando... Aguarde.\n\n");

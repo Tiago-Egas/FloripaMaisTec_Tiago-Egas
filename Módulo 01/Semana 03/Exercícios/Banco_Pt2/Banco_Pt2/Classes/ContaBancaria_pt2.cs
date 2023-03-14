@@ -1,14 +1,14 @@
-﻿using static Banco.ContaTipo;
+﻿using Banco_Pt2.Classes.Enum;
 
-namespace Banco
+namespace Banco_Pt2.Classes
 {
-    public class ContaBancaria
+    public class ContaBancaria_pt2
     {
         private int _numero;
         private int _agencia;
         private string? _titular;
         private decimal _saldo = 0;
-        private ContaTipoENUM _contaTipo;
+        private contaTipoENUM_pt2 _contaTipo;
 
         // Atributos com Gets and Sets
         /*
@@ -19,19 +19,19 @@ namespace Banco
         private int Agencia { get => _agencia; set => _agencia = value; }
         private string? Titular { get => _titular; set => _titular = value; }
         private decimal Saldo { get => _saldo; set => _saldo = value; }
-        private ContaTipoENUM ContaTipo { get => _contaTipo; set => _contaTipo = value; }
+        private contaTipoENUM_pt2 ContaTipo { get => _contaTipo; set => _contaTipo = value; }
 
         // Construtores
         /*
          * [M1S03] Ex 02
          * Criação de construtor da classe ContaBancaria
          */
-        public ContaBancaria(int Numero, int Agencia, string? Titular, ContaTipoENUM ContaTipo)
+        public ContaBancaria_pt2(int numero, int agencia, string? titular, contaTipoENUM_pt2 contaTipo)
         {
-            this.Numero = Numero;
-            this.Agencia = Agencia;
-            this.Titular = Titular;
-            this.ContaTipo = ContaTipo;
+            this.Numero = numero;
+            this.Agencia = agencia;
+            this.Titular = titular;
+            this.ContaTipo = contaTipo;
             Console.WriteLine($"Conta de {this.Titular.ToUpper()} criada com sucesso!\n");
         }
 
@@ -39,29 +39,29 @@ namespace Banco
          * [M1S03] Ex 04
          * Criação de construtor secundário para a classe ContaBancaria
          */
-        public ContaBancaria(string? Titular, int ContaTipo)
+        public ContaBancaria_pt2(string? titular, int contaTipo)
         {
-            Random rnd = new();
-            this.Titular = Titular;
-            this.ContaTipo = (ContaTipoENUM)ContaTipo;
+            Random rnd = new Random();
+            this.Titular = titular;
+            this.ContaTipo = (contaTipoENUM_pt2)contaTipo;
             this.Numero = rnd.Next(0000, 9999);
             this.Agencia = rnd.Next(0000, 9999);
             Console.WriteLine($"Conta de {this.Titular.ToUpper()} criada com sucesso!\n");
         }
 
-        public ContaBancaria()
+        public ContaBancaria_pt2()
         {
         }
 
         // Métodos
-        public void Depositar(decimal Valor)
+        public void Depositar(decimal valor)
         {
             bool depValid = true;
             while (depValid)
             {
-                if (Valor > 0)
+                if (valor > 0)
                 {
-                    this.Saldo += Valor;
+                    this.Saldo += valor;
                     ExibirSaldoAtual();
                 }
                 else
@@ -71,29 +71,29 @@ namespace Banco
             }
         }
 
-        public void Sacar(decimal Valor)
+        public void Sacar(decimal valor)
         {
             bool sacValid = true;
             while (sacValid)
             {
-                if (Valor > 0 && this.Saldo >= Valor)
+                if (valor > 0 && this.Saldo >= valor)
                 {
-                    this.Saldo -= Valor;
+                    this.Saldo -= valor;
                     ExibirSaldoAtual();
                 }
                 else
                 {
                     Console.WriteLine("\nErro na operação!\n");
-                    if (Valor <= 0)
+                    if (valor <= 0)
                     {
                         Console.WriteLine("Valor de saque inválido!\n");
                     }
-                    if (this.Saldo < Valor)
+                    if (this.Saldo < valor)
                     {
                         Console.WriteLine("Saldo insuficiente!\n");
                         ExibirSaldoAtual();
                     }
-                    
+
                 }
             }
         }
@@ -118,11 +118,26 @@ namespace Banco
          * [M1S03] Ex 05
          * Criação de método para fazer transferência na classe ContaBancaria
          */
-        public void Transferir(int Remetente, int Destinatario, decimal Valor)
+        public void Transferir(int remetente, int destinatario, decimal valor)
         {
-            // TODO
-            // Receber os dados das contas e fazer transferêcia do remetente
-            // para o destinatário e informar os _saldos resultantes das duas contas
+            if (valor <= 0)
+            {
+                Console.WriteLine("Valor de transferêcia inválido!\n");
+                return;
+            }
+
+            if (valor > Saldo)
+            {
+                Console.WriteLine("Saldo insuficiente!");
+                return;
+            }
+
+            this.Saldo = this.Saldo + valor;
+
+            Depositar(valor);
+
+            Console.WriteLine($"O valor foi transferido com sucesso!");
+            Console.WriteLine($"Seu novo saldo é: R$ {this.Saldo}.");
         }
     }
 }

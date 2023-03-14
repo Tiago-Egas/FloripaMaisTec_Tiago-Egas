@@ -29,7 +29,7 @@
 using POO.Classes;
 
 // Instância do objeto, utilizando nova forma de instanciamento do Visual Studio
-Carros Carro1 = new()
+Carros Carro1 = new Carros()
 {
     // criando novo objeto a partir da classe mãe
     cor = "Vinho",
