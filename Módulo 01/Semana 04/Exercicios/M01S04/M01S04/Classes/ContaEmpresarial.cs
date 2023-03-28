@@ -5,6 +5,10 @@ namespace M01S04.Classes
 {
     public class ContaEmpresarial : ContaBancaria
     {
+        /*
+        * [M1S04] Ex 04
+        * Criação dos atributos LimiteEmprestimo, TaxaJuros, PossuiEmprestimo, ValorUsado e CNPJ
+        */
         public decimal LimiteEmprestimo { get; private set; }
         public decimal TaxaJuros { get; private set; }
         public bool PossuiEmprestimo { get; private set; } = false;
@@ -23,6 +27,10 @@ namespace M01S04.Classes
             }
         }
 
+        /*
+         * [M1S04] Ex 05
+         * Criação dos métodos FazerEmprestimo() e PagarEmprestimo()
+         */
         public void FazerEmprestimo(decimal valor)
         {
             if (valor <= 0)
@@ -64,6 +72,10 @@ namespace M01S04.Classes
             Console.WriteLine($"Empréstimo de {total} foi pago!");
         }
 
+        /*
+         * [M1S04] Ex 06
+         * Criação de Override dos métodos Sacar() e Transferir()
+         */
         public override void Sacar(decimal valor)
         {
             valor += 1;
@@ -75,5 +87,6 @@ namespace M01S04.Classes
             valor += 0.50M;
             base.Transferir(conta, valor);
         }
+        
     }
 }

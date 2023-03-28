@@ -3,6 +3,10 @@ using M01S04.Classes.Enums;
 
 namespace M01S04.Classes
 {
+    /*
+    * [M1S04] Ex 03
+    * Criação das classes ContaCorrente, ContaPoupaca e ContaEmpresarial, com herança da classe ContaBancaria
+    */
     public class ContaPoupanca : ContaBancaria
     {
         public ContaPoupanca(int numero, int agencia, Cliente cliente, decimal saldo) : base(numero, agencia, cliente, saldo)
@@ -13,6 +17,10 @@ namespace M01S04.Classes
             }
         }
 
+        /*
+         * [M1S04] Ex 06
+         * Criação de Override dos métodos Sacar() e Transferir()
+         */
         public override void Sacar(decimal valor)
         {
             valor += 0.10M;

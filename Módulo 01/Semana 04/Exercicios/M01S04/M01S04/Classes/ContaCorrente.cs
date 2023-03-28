@@ -13,6 +13,10 @@ namespace M01S04.Classes
             }
         }
 
+        /*
+         * [M1S04] Ex 06
+         * Criação de Override dos métodos Sacar() e Transferir()
+         */
         public override void Sacar(decimal valor)
         {
             valor += 0.50M;

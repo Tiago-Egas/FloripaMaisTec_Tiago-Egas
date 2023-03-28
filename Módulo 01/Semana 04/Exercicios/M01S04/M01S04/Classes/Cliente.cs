@@ -2,6 +2,10 @@
 
 namespace M01S04.Classes
 {
+    /*
+    * [M1S04] Ex 01
+    * Criação da classe Cliente
+    */
     public class Cliente
     {
         public string Nome { get; private set; }

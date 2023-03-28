@@ -1,5 +1,9 @@
 ﻿namespace M01S04.Classes
 {
+    /*
+    * [M1S04] Ex 02
+    * Criação da classe ContaBancaria, sua assinatura e seus métodos
+    */
     public class ContaBancaria
     {
         public int Numero { get; protected set; }
