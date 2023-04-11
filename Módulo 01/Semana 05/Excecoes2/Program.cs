@@ -5,20 +5,20 @@ try
 {
     Console.WriteLine($"x / y é igual a {x / y}.");
 }
-catch (DivideByZeroException ex)
+catch (DivideByZeroException exDivisaoPorZeroException)
 {
-    Console.WriteLine($"\n\nExplicação do erro de divisão por zero: {ex.Message}");
-    Console.WriteLine($"\n\nStackTrace do erro: {ex.StackTrace}");
+    Console.WriteLine($"\n\nExplicação do erro de divisão por zero: {exDivisaoPorZeroException.Message}");
+    Console.WriteLine($"\n\nStackTrace do erro: {exDivisaoPorZeroException.StackTrace}");
 }
-catch (ArithmeticException ex)
+catch (ArithmeticException exErroAritmeticoException)
 {
-    Console.WriteLine($"\n\nExplicação do erro: {ex.Message}");
-    Console.WriteLine($"\n\nStackTrace do erro: {ex.StackTrace}");
+    Console.WriteLine($"\n\nExplicação do erro: {exErroAritmeticoException.Message}");
+    Console.WriteLine($"\n\nStackTrace do erro: {exErroAritmeticoException.StackTrace}");
 }
-catch (Exception ex)
+catch (Exception exErroGenericoException)
 {
-    Console.WriteLine($"\n\nExplicação do erro genérico: {ex.Message}");
-    Console.WriteLine($"\n\nStackTrace do erro: {ex.StackTrace}");
+    Console.WriteLine($"\n\nExplicação do erro genérico: {exErroGenericoException.Message}");
+    Console.WriteLine($"\n\nStackTrace do erro: {exErroGenericoException.StackTrace}");
 }
 finally
 {

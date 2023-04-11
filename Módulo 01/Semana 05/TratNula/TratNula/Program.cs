@@ -1,17 +1,17 @@
 ﻿try
 {
-    string s = null;
+    string frase = null;
 
-    if (s.Length > 0)
+    if (frase.Length > 0)
     {
-        Console.WriteLine($"Quantidade de caracteres: {s.Length}.");
+        Console.WriteLine($"Quantidade de caracteres: {frase.Length}.");
     }
 }
-catch (NullReferenceException ex)
+catch (NullReferenceException exValorNulo)
 {
-    Console.WriteLine($"Erro capturado: {ex}, Faça isso para sair deste erro!\n");
+    Console.WriteLine($"Erro capturado: {exValorNulo}, Faça isso para sair deste erro!\n");
 }
-catch (Exception ex)
+catch (Exception exErroGenerico)
 {
-    Console.WriteLine($"Erro genérico: {ex.Message}.\n");
+    Console.WriteLine($"Erro genérico: {exErroGenerico.Message}.\n");
 }

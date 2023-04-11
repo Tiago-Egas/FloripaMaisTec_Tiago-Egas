@@ -8,19 +8,19 @@
 
     Console.Write($"O resultado de 100 divido por {numero} é: {resultado}.");
 }
-catch (DivideByZeroException ex)
+catch (DivideByZeroException exDivididoPorZero)
 {
     Console.WriteLine(
-        $"Erro: {ex.Message}.\nO número informado não pode ser zero, informe outro número.\n"
+        $"Erro: {exDivididoPorZero.Message}.\nO número informado não pode ser zero, informe outro número.\n"
     );
 }
-catch (FormatException ex)
+catch (FormatException exFormatoIncorreto)
 {
     Console.WriteLine(
-        $"Erro: {ex.Message}.\nO formato de número informado é inválido. Informe outro valor.\n"
+        $"Erro: {exFormatoIncorreto.Message}.\nO formato de número informado é inválido. Informe outro valor.\n"
     );
 }
-catch (Exception ex)
+catch (Exception exErroGenerico)
 {
-    Console.WriteLine(ex.Message);
+    Console.WriteLine(exErroGenerico.Message);
 }
